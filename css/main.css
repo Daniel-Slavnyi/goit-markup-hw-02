@@ -61,9 +61,9 @@ body {
     color: var(--contrast-color);
 }
 .nav-link:hover,
-.nav-link:active,
+.nav-link:focus,
 .nav-contact:hover,
-.nav-contact:active,
+.nav-contact:focus,
 .footer-link:hover,
 .footer-link:focus {
     color: var(--contrast-color);
@@ -88,7 +88,7 @@ body {
 }
 .hero-btn {
     background-color: var(--contrast-color);
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -141,8 +141,15 @@ body {
 
 
 /* portfolio */
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    line-height: 1.6;
+}
 .portfolio-btn:hover,
-.portfolio:active {
+.portfolio-btn:focus {
     background-color: var(--contrast-color);
     color: var(--white-color);
 }
