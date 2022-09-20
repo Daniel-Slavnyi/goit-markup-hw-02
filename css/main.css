@@ -17,7 +17,15 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+    padding: 0;
+}
 .cind-of-work-title,
 .team-title {
     font-size: 42px;
